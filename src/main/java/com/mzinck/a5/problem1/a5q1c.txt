@@ -1,0 +1,11 @@
+For timing the programs I took each program and made it run over and over adding 10 words everytime to the input.
+With this I found that Collections.sort resulted in a much faster runtime.
+
+The times are as follows:
+
+a5q1 lines | a5q1b lines | Time
+
+10          10000              1s
+500          500000             5s
+2000         1000000             10s
+8000         2000000            20s
